@@ -46,7 +46,7 @@ mpl_fig_obj = plt.figure()
 
 # In[79]:
 
-py.sign_in("kstohr", "vb1uelvzwe")
+py.sign_in("kstohr", "token")
 
 
 # ## Get Timeseries Data
@@ -54,7 +54,7 @@ py.sign_in("kstohr", "vb1uelvzwe")
 # In[80]:
 
 #crowdtangle token
-tokenID = 'lUSJfmggofxo4TKr4ZR5irFaRSnDJFmbE4HEsfgH'
+tokenID = 'token'
 
 
 # In[81]:
@@ -642,7 +642,7 @@ attachment = json.dumps(attachment)
 # In[75]:
 
 #post top links 
-token = 'xoxb-53518431175-kg1TAOzyOBsdoXxCMZxbVe7J'
+token = ''
 channel = '#edit-elections-data'
 sc = SlackClient(token)
 sc.api_call(
